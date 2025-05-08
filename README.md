@@ -1,2 +1,2 @@
-# Gaussian-Fit-Aerosol-Modes
-MATLAB scripts for fitting trimodal Gaussian functions to aerosol size distribution data, identifying nuclei, Aitken, and accumulation modes in SMPS measurements before and during cloud events.
+This project processes SMPS (Scanning Mobility Particle Sizer) data to identify the three common aerosol modes—nuclei, Aitken, and accumulation—via Gaussian fitting. The script segments time-series data, averages over intervals, fits a 3-mode Gaussian model (gauss3), and classifies fitted components based on size thresholds. It outputs geometric means, mode percentages, and fitting metrics to support aerosol-cloud interaction studies.
+
